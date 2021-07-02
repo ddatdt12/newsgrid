@@ -307,7 +307,7 @@ img {
   width: 90%;
   margin-bottom: 0.5rem;
 }
-.container-footer .contact button {
+.container-footer .contact input[type='submit'] {
   width: 90%;
 }
 

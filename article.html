@@ -18,8 +18,8 @@
   <!-- Navbar -->
   <nav id="main-navbar">
     <div class="container">
-      <a href="index.html">
-        <img src="img/logo.png" class="logo" alt="NewsGrid Logo">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="NewsGrid Logo">
       </a>
       <div class="social">
         <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
@@ -102,9 +102,9 @@
       <div class="contact">
         <h3>EMAIL NEWSLETTER</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <form action="">
+        <form name="contact" method="POST" data-netlify="true">
           <input type="email" placeholder="Enter Email..." />
-          <button class="btn btn-primary">Subscribe</button>
+          <input type="submit" value="Subscribe" class="btn btn-primary">
         </form>
       </div>
       <div class="site-links">
